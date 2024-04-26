@@ -1,5 +1,81 @@
+/* --- variables --- */
+:root {
+    --color: gainsboro;
+    --background: rgb(10, 10, 10);
+    --background-accent: rgb(27, 27, 27);
+    --accent: rgb(220,50,50);
+    --accent-hover: rgb(221, 96, 96);
+    --accent: rgb(220,50,50);
+}
+
+/* --- fonts ---*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.font-heavy {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.font-regular, p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.font-light {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* --- text --- */
+a:link {
+    color: var(--accent);
+    text-decoration: none;
+}
+a:visited {
+    color: var(--accent);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--accent-hover);
+    text-decoration: none;
+}
+a:active {
+    color: var(--accent);
+    text-decoration: none;
+}
+  
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+/*style*/
 body {
     margin: 0;
     background-color: rgb(10, 10, 10);
     color: gainsboro;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-accent);
+}
+
+div{
+    padding: 5vh 10vw;
+}
+
+footer{
+    padding: 5vh 10vw ;
 }
